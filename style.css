@@ -71,7 +71,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 4%;
-    margin-top: -7px;
+    margin-top: 10px;
 
 
   }
@@ -79,7 +79,7 @@ body {
       border-radius: 10%;
       width: 100%
   }
-  .sidebar-container-buttons button{ /*add minimalistic buttons*/
+  .sidebar-container-buttons button{
     background-color: #FFFFE8 ;
     border: none;
     color: rgb(204, 102, 102);
@@ -95,15 +95,23 @@ body {
 
   .sidebar-container-buttons button:hover{
     background-color: #FFD4B2;
-    box-shadow: 0 9px #666;
+    box-shadow: 0 7px #666;
     transform: translateY(-4px);
+    /*add smoother animations to button when on hover*/
+    transition: all 0.1s ease-in-out;
+
+
 
   }
 
   .sidebar-container-buttons button:active{
     background-color: #FFD4B2;
-    box-shadow: 0 5px #666;
+    box-shadow: 0 1px #666;
     transform: translateY(4px);
+    /*add smoother animations to button when button is active*/
+    transition: all 0.1s ease-in-out;
+
+    
 
   }
 
