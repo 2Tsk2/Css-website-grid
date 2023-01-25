@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
 body {
     min-height: 100vh;
-    font-family: sans-serif;
-    font-weight: bold;
+    font-family: roboto;
+    font-weight: 400;
     padding: 0px;
     margin: 0px;
     font-size: 1.8rem;
@@ -31,14 +33,34 @@ body {
   .header h5{
     margin-block-start: 20px;
     margin-block-end: 90px;
-    margin-left: 15px;
+    margin-left: 25px;
+    font-size: 20px;
 
   }
   
   .content {
-    padding: 1.5rem;
+    padding: 3rem;
     grid-area: content;
-    background: #FFF6BD
+    background: #FFF6BD;
+    margin-top: -40p;
+  }
+  .main-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  }
+  
+  .content p{
+  
+    font-size: 25px;
+    font-weight: 300;
+  }
+
+  .content hr{
+    border: 0.1px solid #86C8BC;
+    background-color: #86C8BC;
+    margin-top: 40px
   }
   
   .sidebar {
@@ -90,29 +112,39 @@ body {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    transition: all 0.1s ease-in-out;
     border-radius: 5px;    
+    box-shadow: 0 0px;
   }
 
   .sidebar-container-buttons button:hover{
     background-color: #FFD4B2;
     box-shadow: 0 7px #666;
-    transform: translateY(-4px);
-    transition: all 0.1s ease-in-out;
-
-
-
+    transform: translateY(-3px);
   }
+
 
   .sidebar-container-buttons button:active{
     background-color: #FFD4B2;
     box-shadow: 0 1px #666;
-    transform: translateY(4px);
-    transition: all 0.1s ease-in-out;
-
-    
-
+    transform: translateY(3px);
   }
 
+  .sidebar-quote-container{
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .sidebar-quote{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 300;
+  }
 
   
 
