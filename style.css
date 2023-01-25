@@ -89,7 +89,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 20%;
+  height: 21%;
   margin-top: 100px;
 }
 
@@ -97,8 +97,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 3%;
-  margin-top: 10px;
+  height: 2%;
+  margin-top: 37px;
 }
 .sidebar-image-container img {
   border-radius: 10%;
@@ -108,7 +108,7 @@ body {
   background-color: #ffffe8;
   border: none;
   color: rgb(204, 102, 102);
-  padding: 11px;
+  padding: 13px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -142,7 +142,7 @@ body {
 }
 
 .sidebar-quote {
-  margin-top: 10px;
+  margin-top: 30px;
   margin-bottom: 10px;
   font-size: 15px;
   font-weight: 300;
@@ -150,6 +150,7 @@ body {
 
 cite a{
   text-decoration: none;
+  margin-top: 20px;
   color: black;
 }
 
