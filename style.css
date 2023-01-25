@@ -1,0 +1,113 @@
+body {
+    min-height: 100vh;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.8rem;
+    
+  }
+
+  
+  .layout {
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+      "header header  header  header"
+      "aside content content content   "
+      "footer footer  footer  footer";
+    grid-template-rows: 
+      4rem
+      1fr
+      3rem;
+    grid-template-columns: 10rem 1fr 20rem 5rem;
+    grid-column-gap: rem;
+  }
+  
+  .header {
+    background-color: #FFD4B2;
+    grid-area: header;
+  }
+  .header h5{
+    margin-block-start: 20px;
+    margin-block-end: 90px;
+    margin-left: 15px;
+
+  }
+  
+  .content {
+    padding: 1.5rem;
+    grid-area: content;
+    background: #FFF6BD
+  }
+  
+  .sidebar {
+    padding: 2rem;
+    grid-area: aside;
+    background: #CEEDC7;
+  }
+  
+  .footer {
+    padding: 1rem;
+    background-color: #86C8BC;
+    grid-area: footer;
+    font-size: 10px;
+    text-align: center;
+
+  }
+
+
+  .sidebar-container-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30%;
+    margin-top: 100px;
+
+  }
+
+  .sidebar-image-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 4%;
+    margin-top: -7px;
+
+
+  }
+  .sidebar-image-container img{
+      border-radius: 10%;
+      width: 100%
+  }
+  .sidebar-container-buttons button{ /*add minimalistic buttons*/
+    background-color: #FFFFE8 ;
+    border: none;
+    color: rgb(204, 102, 102);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;    
+  }
+
+  .sidebar-container-buttons button:hover{
+    background-color: #FFD4B2;
+    box-shadow: 0 9px #666;
+    transform: translateY(-4px);
+
+  }
+
+  .sidebar-container-buttons button:active{
+    background-color: #FFD4B2;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+
+  }
+
+
+  
+
+
