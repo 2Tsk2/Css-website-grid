@@ -97,7 +97,6 @@ body {
     background-color: #FFD4B2;
     box-shadow: 0 7px #666;
     transform: translateY(-4px);
-    /*add smoother animations to button when on hover*/
     transition: all 0.1s ease-in-out;
 
 
@@ -108,7 +107,6 @@ body {
     background-color: #FFD4B2;
     box-shadow: 0 1px #666;
     transform: translateY(4px);
-    /*add smoother animations to button when button is active*/
     transition: all 0.1s ease-in-out;
 
     
